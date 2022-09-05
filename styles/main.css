@@ -34,13 +34,16 @@ header nav ul {
     content: "";
     position: absolute;
     left: 0%;
+    height: 2px;
     right: 0%;
     bottom: 0%;
+    transform: scale(0,1);
+    transition: all 1s;
     background: orangered;
 }
 
 .header__items a:hover::before {
-    height: 2px;
+    transform: scale(1,1);
 }
 
 /* end of header */
@@ -138,6 +141,7 @@ header nav ul {
     background:-webkit-linear-gradient(194deg, #596daf 0%, #2f034dbe 100%);
     background:-o-linear-gradient(194deg, #596daf 0%, #2f034dbe 100%);
     color: #FFF;
+    transition: all 1s;
 }
 
 .card__items a:hover {
