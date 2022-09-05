@@ -1,5 +1,41 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+}
+
+header {
+    padding: 10px 0px;
+    border-bottom: 1px solid #9999;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header__items{
+    position: relative;
+    padding: 10px 0px;
+}
+
+.header__items a{
+    padding: 10px 0px;
+    color: rgb(47, 16, 80);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header__items a::before{
+    content: "";
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:orangered;
+}
+.header__items a:hover::before{
+    height: 2px;
 }
