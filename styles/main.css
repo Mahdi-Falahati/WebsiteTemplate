@@ -143,10 +143,32 @@ header nav ul {
 }
 
 .card__items p {
-    border-top: 1px solid orangered;
+    border-top: 1px solid #ff4500;
     width: 100%;
     text-align: center;
     padding-top: 20px;
 }
 
 /* end of card section */
+
+/* footer */
+footer{
+    margin-top: 50px;
+    background:-webkit-linear-gradient(191deg, #5004A3 0%, #FF4848 100%);
+    background:-o-linear-gradient(191deg, #5004A3 0%, #FF4848 100%);
+    background:-ms-linear-gradient(191deg, #5004A3 0%, #FF4848 100%);
+    background:linear-gradient(191deg, #5004A3 0%, #FF4848 100%);
+    color: rgb(229, 182, 182);
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0px;
+}
+footer p{
+    display: inline-block;
+}
+footer a{
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+/* end of footer  */
