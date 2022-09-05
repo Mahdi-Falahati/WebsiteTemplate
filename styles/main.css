@@ -47,6 +47,7 @@ header nav ul {
 }
 
 /* end of header */
+/* description */
 #Description {
     display: flex;
     justify-content: space-between;
@@ -57,7 +58,8 @@ header nav ul {
     text-align: center;
     border-radius: 25px;
     padding: 30px;
-    border: 1px solid orangered;
+    border: 1px dotted orangered;
+    box-shadow: inset 0px 0px 15px 0px gold;
 }
 
 #Description h2 {
@@ -158,9 +160,6 @@ header nav ul {
     text-align: center;
     padding-top: 20px;
 }
-
-/* end of card section */
-
 /* footer */
 footer {
     margin-top: 50px;
