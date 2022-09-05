@@ -1,1 +1,1 @@
-# ShoppingWebsiteTemplate
+# SimpleWebsiteTemplate
