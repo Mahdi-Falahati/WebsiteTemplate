@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* header */
 header {
     padding: 10px 0px;
     border-bottom: 1px solid #9999;
@@ -38,4 +39,28 @@ header nav ul{
 }
 .header__items a:hover::before{
     height: 2px;
+}
+
+/* end of header */
+#Description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    height: 270px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 25px;
+    padding: 30px;
+    color: rgb(240, 248, 255);
+    background: #2F1050;
+    border: 1px solid orangered;
+}
+
+#Description h2{
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid springgreen;
+    letter-spacing: 2px;
 }
