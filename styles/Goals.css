@@ -1,0 +1,86 @@
+/* card goals */
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.card__items {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 25px;
+}
+
+.card__items h3 {
+    letter-spacing: 2px;
+}
+
+.card__items img {
+    width: 150px;
+}
+
+.card__items a {
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 1px solid #000;
+    transition: all 1s;
+}
+
+.card__items a::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    top: 0%;
+    transition: all 1s;
+    background: rgba(255, 0, 0, 0.507);
+    transform: scale(0, 1);
+    border-radius: 20px;
+}
+
+.card__items a:hover {
+    color: #FFF;
+}
+
+.card__items a:hover::after {
+    letter-spacing: 2px;
+    color: #FFF;
+    transform: scale(1, 1);
+}
+
+/* end of card goals */
+
+/* Goals section */
+.Goals{
+    width: 95%;
+    margin: 30px auto;
+    border: 1px solid #666;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.39);
+}
+
+.Goals p{
+    margin: 10px 0px;
+}
+
+.Goals h3{
+    display: inline-block;
+}
+
+/* end of Goals section */

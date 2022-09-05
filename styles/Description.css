@@ -1,0 +1,113 @@
+/* description */
+#Description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 25px;
+    padding: 30px;
+    border: 1px dotted orangered;
+    box-shadow: inset 0px 0px 15px 0px gold;
+}
+
+#Description h2 {
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #2F1050;
+    letter-spacing: 2px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+#Description p {
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+
+/* end of description */
+/* card section */
+.card__titr {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card__titr span:nth-child(1) {
+    flex-grow: 2;
+    height: 10px;
+    border-radius: 20px;
+    background: hsl(19, 100%, 50%);
+}
+
+.card__titr h2 {
+    padding: 0px 20px;
+}
+
+.card__titr span:nth-child(3) {
+    flex-grow: 2;
+    height: 10px;
+    border-radius: 20px;
+    background: #00ffbf;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.card__items {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #000;
+    border-radius: 25px;
+}
+
+.card__items h3 {
+    letter-spacing: 2px;
+}
+
+.card__items img {
+    width: 150px;
+}
+
+.card__items a {
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #003ba8;
+    background:-moz-linear-gradient(194deg, #596daf 0%, #2f034dbe,100%); 
+    background:-webkit-linear-gradient(194deg, #596daf 0%, #2f034dbe 100%);
+    background:-o-linear-gradient(194deg, #596daf 0%, #2f034dbe 100%);
+    color: #FFF;
+    transition: all 1s;
+}
+
+.card__items a:hover {
+    background-color: #003ba8c2;
+    background:-moz-linear-gradient(194deg, #2f034dbe 0%, #596daf 100%); 
+    background:-webkit-linear-gradient(194deg, #2f034dbe 0%, #596daf 100%);
+    background:-o-linear-gradient(194deg, #2f034dbe 0%, #596daf 100%);
+    letter-spacing: 2px;
+}
+
+.card__items p {
+    border-top: 1px solid #ff4500;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
