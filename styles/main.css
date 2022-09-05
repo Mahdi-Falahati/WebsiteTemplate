@@ -27,6 +27,7 @@ header nav ul {
     color: rgb(47, 16, 80);
     text-decoration: none;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .header__items a::before {
@@ -64,15 +65,40 @@ header nav ul {
     font-family: 'Fredericka the Great', cursive;
 }
 
-#Description p{
+#Description p {
     padding-top: 15px;
     letter-spacing: 1px;
 }
 
 /* end of description */
 /* card section */
+.card__titr {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-.card{
+.card__titr span:nth-child(1) {
+    flex-grow: 2;
+    height: 10px;
+    border-radius: 20px;
+    background: hsl(19, 100%, 50%);
+}
+
+.card__titr h2{
+    padding: 0px 20px;
+}
+
+.card__titr span:nth-child(3) {
+    flex-grow: 2;
+    height: 10px;
+    border-radius: 20px;
+    background: #00ffbf;
+}
+
+.card {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -80,7 +106,7 @@ header nav ul {
     padding: 20px 0px;
 }
 
-.card__items{
+.card__items {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -92,26 +118,31 @@ header nav ul {
     border-radius: 25px;
 }
 
-.card__items img{
+.card__items h3 {
+    letter-spacing: 2px;
+}
+
+.card__items img {
     width: 150px;
 }
 
-.card__items a{
+.card__items a {
     text-decoration: none;
-    background-color: springgreen;
-    color: #2F1050;
     padding: 10px;
-    width: 100px;
+    width: 150px;
     text-align: center;
     border-radius: 20px;
+    font-weight: bold;
+    background-color: #003ba8;
+    color: #FFF;
 }
 
-.card__items a:hover{
-    background-color: rgb(2, 165, 83) ;
-    color:#FFF;
+.card__items a:hover {
+    background-color: #003ba8c2;
+    letter-spacing: 2px;
 }
 
-.card__items p{
+.card__items p {
     border-top: 1px solid orangered;
     width: 100%;
     text-align: center;
