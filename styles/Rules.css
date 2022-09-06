@@ -1,0 +1,177 @@
+/* Rules Info  */
+.rules__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: inset 0px 0px 20px rgba(0, 255, 255, 0.747);
+}
+
+.rules__info h2 {
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #2F1050;
+    letter-spacing: 2px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.rules__info p {
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+
+/* end of Rules Info  */
+
+/* Rules section */
+.card__titr {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card__titr span:nth-child(1) {
+    flex-grow: 2;
+    height: 10px;
+    border-radius: 20px;
+    background: hsl(140, 100%, 65%);
+}
+
+.card__titr h2 {
+    padding: 0px 20px;
+}
+
+.card__titr span:nth-child(3) {
+    flex-grow: 2;
+    height: 10px;
+    border-radius: 20px;
+    background: #00ffbf;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.card__items {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 25px;
+}
+
+.card__items h3 {
+    border-top: 1px solid #000;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 15px;
+}
+
+.card__items img {
+    text-align: center;
+    width: 150px;
+}
+
+.card__items:hover .info {
+    transform: scale(1, 1);
+}
+
+.info {
+    transition: all 1s;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 23px;
+    transform: scale(0, 0);
+    text-align: center;
+    background-color: #003ba8c2;
+    background: -webkit-linear-gradient(191deg, #330069cc 0%, #ff2727d5 100%);
+    background: -o-linear-gradient(191deg, #330069cc 0%, #ff2727d5 100%);
+    background: -ms-linear-gradient(191deg, #330069cc 0%, #ff2727d5 100%);
+    background: linear-gradient(191deg, #330069cc 0%, #ff2727d5 100%);
+    color: #fff;
+}
+
+.info p {
+    padding: 10px;
+}
+
+.info a {
+    background: #FFF;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.info a:hover {
+    transform: scale(1.3);
+}
+
+/* end of rules card  */
+
+/* Rules */
+.rules {
+    min-height: 400px;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rules__content {
+    border-left: 1px solid #000;
+    list-style-position: inside;
+    padding-left: 40px;
+    line-height: 30px;
+}
+
+/* end of Rules */
+
+/* rules paragraph */
+.rules__paragraph{
+    width: 80vw;
+    margin: 40px auto;
+    font-size: 19px;
+    text-align: center;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+.rules__paragraph span:nth-child(1){
+    font-size: 80px;
+}
+/* end of rules paragraph */
+
+@media screen and (max-width:550px) {
+    .card__items {
+        margin: 20px 10px 0px 10px;
+    }
+}

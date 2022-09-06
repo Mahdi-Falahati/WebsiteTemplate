@@ -76,6 +76,7 @@
 
 .card__items h3 {
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .card__items img {
@@ -110,4 +111,10 @@
     width: 100%;
     text-align: center;
     padding-top: 20px;
+}
+
+@media screen and (max-width:550px) {
+    .card__items {
+        margin: 20px 10px 0px 10px;
+    }
 }

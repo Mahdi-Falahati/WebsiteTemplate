@@ -21,6 +21,7 @@
 
 .card__items h3 {
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .card__items img {
@@ -84,3 +85,8 @@
 }
 
 /* end of Goals section */
+@media screen and (max-width:550px) {
+    .card__items {
+        margin: 20px 10px 0px 10px;
+    }
+}
