@@ -1,0 +1,27 @@
+/* Rules Info  */
+/* Rules Info  */
+.rules__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: inset 0px 0px 20px rgba(0, 255, 255, 0.747);
+}
+
+.rules__info h2 {
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #2F1050;
+    letter-spacing: 2px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.rules__info p {
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
