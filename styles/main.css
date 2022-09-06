@@ -13,8 +13,13 @@ header {
 header nav ul {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     list-style-type: none;
+}
+
+header nav ul li {
+    margin: 0px 10px;
 }
 
 .header__items {
@@ -37,13 +42,13 @@ header nav ul {
     height: 2px;
     right: 0%;
     bottom: 0%;
-    transform: scale(0,1);
+    transform: scale(0, 1);
     transition: all 1s;
     background: orangered;
 }
 
 .header__items a:hover::before {
-    transform: scale(1,1);
+    transform: scale(1, 1);
 }
 
 /* end of header */

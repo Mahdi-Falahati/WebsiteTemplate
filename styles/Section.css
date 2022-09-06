@@ -22,6 +22,7 @@
 
 .card__items h3 {
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .card__items img {
@@ -36,7 +37,7 @@ table {
     padding: 10px;
     margin: 20px auto;
     border: 1px solid #000;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 td,
@@ -60,8 +61,12 @@ tr {
 @media screen and (max-width:550px) {
     table {
         display: block;
-        margin:20px ;
+        margin: 20px;
         overflow-x: auto;
         white-space: nowrap;
+    }
+
+    .card__items {
+        margin: 20px 10px 0px 10px;
     }
 }
