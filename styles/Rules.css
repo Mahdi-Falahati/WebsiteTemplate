@@ -1,6 +1,5 @@
 /* Rules Info  */
-/* Rules Info  */
-.rules__info{
+.rules__info {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,4 +23,111 @@
 .rules__info p {
     padding-top: 15px;
     letter-spacing: 1px;
+}
+
+/* end of Rules Info  */
+
+/* Rules section */
+.card__titr {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card__titr span:nth-child(1) {
+    flex-grow: 2;
+    height: 10px;
+    border-radius: 20px;
+    background: hsl(140, 100%, 65%);
+}
+
+.card__titr h2 {
+    padding: 0px 20px;
+}
+
+.card__titr span:nth-child(3) {
+    flex-grow: 2;
+    height: 10px;
+    border-radius: 20px;
+    background: #00ffbf;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.card__items {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 25px;
+}
+
+.card__items h3 {
+    border-top: 1px solid #000;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 15px;
+}
+
+.card__items img {
+    text-align: center;
+    width: 150px;
+}
+
+.card__items:hover .info {
+    transform: scale(1, 1);
+}
+
+.info {
+    transition: all 1s;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 23px;
+    transform: scale(0, 0);
+    text-align: center;
+    background-color: #003ba8c2;
+    background: -webkit-linear-gradient(191deg, #330069cc 0%, #ff2727d5 100%);
+    background: -o-linear-gradient(191deg, #330069cc 0%, #ff2727d5 100%);
+    background: -ms-linear-gradient(191deg, #330069cc 0%, #ff2727d5 100%);
+    background: linear-gradient(191deg, #330069cc 0%, #ff2727d5 100%);
+    color: #fff;
+}
+
+.info p{
+    padding: 10px;
+}
+
+.info a{
+    background: #FFF;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 1s;
+}
+.info a:hover{
+    transform: scale(1.3);
 }
